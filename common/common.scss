@@ -1,0 +1,45 @@
+view {
+	// font-family: Pingfang-Medium;
+	box-sizing: border-box;
+}
+image {
+	margin: 0;
+	padding: 0;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+// 阿里图标
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	height: 0;
+	color: transparent;
+}
+// @font-face {
+// 	font-family: 'BebasNeue';
+// 	src: url('/static/font/BebasNeue.woff');
+// }
+// @font-face {
+// 	font-family: 'AllAndNone';
+// 	src: url('/static/font/AllAndNoneBold.woff');
+// }
+// @font-face {
+// 	font-family: 'KMedium';
+// 	src: url('./static/font/KMedium.ttf');
+// }
+
